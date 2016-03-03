@@ -51,11 +51,9 @@ $ convert -resize 120x120 input.png output.png
 <p> &#xe900; ArchLinux </p>
 ```
 
-## FontAwesome
+## PNG to SVG
 
-[http://fortawesome.github.io](http://fortawesome.github.io/Font-Awesome/icon/linux/)
+`.svg`への変換には以下のサイトを使用します。
 
-`FontAwesome`は、Webフォント業界では、最も有名なサイトです。[BootStrap](http://getbootstrap.com/)などと合わせてよく使われているのを見かけます。
-
-残念ながら、Linuxのものは用意されているものの、ArchLinuxのものはありません。その場合、先ほど挙げた`IcoMoon`で自作することになります。
+[http://image.online-convert.com/convert-to-svg](http://image.online-convert.com/convert-to-svg)
 
