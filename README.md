@@ -1,6 +1,6 @@
 # ArchLinuxJP Images
 
-ArchLinuJP用に作成したアイコンやArchLinux関連の画像リンクなどを掲載します。
+ArchLinuxJP用に作成したアイコンやArchLinux関連の画像リンクなどを掲載します。
 
 ## ArchLinuxJP
 
