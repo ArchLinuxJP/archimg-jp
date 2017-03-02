@@ -51,9 +51,29 @@ $ convert -resize 120x120 input.png output.png
 <p> &#xe900; ArchLinux </p>
 ```
 
+## SVG to PNG
+
+```bash
+$ sudo pacman -S imagemagick --noconfirm
+$ convert -geometry 190x40! archlogo.svg archlogo.png
+or
+$ sudo pacman -S inkscape --noconfirm
+$ inkscape -z arch.svg -e arch.png
+```
+
 ## PNG to SVG
 
-`.svg`への変換には以下のサイトを使用します。
+PNGをSVGに変換するには、ImageMagickなどでは難しいので、InkscapeをインストールしてPNGファイルを読み込み、SVGで保存します。
 
-[http://image.online-convert.com/convert-to-svg](http://image.online-convert.com/convert-to-svg)
+```bash
+$ inkscape -f arch.png -l arch.svg
+```
+
+## FontAwesome to PNG
+
+https://github.com/odyniec/font-awesome-to-png
+
+```bash
+$ sudo pip install pillow
+```
 
