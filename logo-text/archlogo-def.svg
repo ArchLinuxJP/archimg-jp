@@ -11,8 +11,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
-   width="390"
-   height="95"
+   width="500"
+   height="96"
    id="svg2424"
    sodipodi:docname="archlogo.svg"
    inkscape:version="0.92.1 r">
@@ -115,7 +115,7 @@
        transform="matrix(0.8746356,0,0,0.8746356,14.730518,23.408954)"
        id="g2424">
       <g
-         transform="matrix(0.6378586,0,0,0.6378586,18.653568,-11.600189)"
+         transform="matrix(0.82921618,0,0,0.82921618,-25.521935,-76.948445)"
          id="g2809"
          style="fill:#ffffff;fill-opacity:1">
         <path
@@ -140,7 +140,7 @@
            inkscape:connector-curvature="0" />
       </g>
       <g
-         transform="matrix(0.9443373,0,0.01336345,0.9443373,57.270389,-427.05104)"
+         transform="matrix(1.2276385,0,0.01737249,1.2276385,23.102892,-616.2307)"
          id="g5326"
          style="fill:#1793d1;fill-opacity:1;stroke:none">
         <path
@@ -177,16 +177,16 @@
       <g
          id="text2634"
          style="font-style:normal;font-weight:normal;font-size:8.44138241px;font-family:'DejaVu Sans Mono';fill:#ffffff;fill-opacity:1;stroke:none"
-         transform="matrix(1.5,0,0,1.5,-364.43449,-151.37221)">
+         transform="matrix(2.94,0,0,2.94,-1208.4084,-519.13761)">
         <path
            d="m 685.46692,263.83624 v -5.32944 h -1.99082 v -0.71307 h 4.7895 v 0.71307 h -1.99906 v 5.32944 h -0.79962"
            id="path3660"
-           style="fill:#ffffff;fill-opacity:1"
+           style="fill:#4d4d4d;fill-opacity:1"
            inkscape:connector-curvature="0" />
         <path
            d="m 689.0982,263.83624 v -6.04251 h 1.20355 l 1.43026,4.2784 c 0.13189,0.39843 0.22806,0.69658 0.28852,0.89442 0.0687,-0.21983 0.17586,-0.5427 0.3215,-0.96862 l 1.44674,-4.2042 h 1.07578 v 6.04251 h -0.77077 v -5.05741 l -1.75587,5.05741 h -0.72131 l -1.74763,-5.14396 v 5.14396 h -0.77077"
            id="path3662"
-           style="fill:#ffffff;fill-opacity:1"
+           style="fill:#4d4d4d;fill-opacity:1"
            inkscape:connector-curvature="0" />
       </g>
     </g>
