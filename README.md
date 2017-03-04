@@ -2,19 +2,36 @@
 
 ArchLinux関連の画像リンクなどを掲載します。
 
-## SVG to PNG
+## SVG edit
+
+SVGを編集するには、Editorを使用するか、`inkscape`などから編集するのがおすすめです。簡易な編集ならEditorからでも可能です。
+
+```bash
+$ vim /path/to/arch.svg
+or
+$ sudo pacman -S inkscape --noconfirm
+$ inkscape /path/to/arch.svg
+```
+
+## Change size
 
 ```bash
 $ sudo pacman -S imagemagick --noconfirm
-$ convert -geometry 190x40! archlogo.svg archlogo.png
-or
-$ sudo pacman -S inkscape --noconfirm
-$ inkscape -z arch.svg -e arch.png
+$ convert -geometry 190x40! archlogo.png archlogo_190x40.png
+```
+
+## SVG to PNG
+
+
+```bash
+$ inkscape -f arch.svg -e arch.png
 ```
 
 ## PNG to SVG
 
 PNGをSVGに変換するには、ImageMagickなどでは難しいので、InkscapeをインストールしてPNGファイルを読み込み、SVGで保存します。
+
+ただし、PNGのデータが変換されてSVGに埋め込まれる形になります。
 
 ```bash
 $ inkscape -f arch.png -l arch.svg
