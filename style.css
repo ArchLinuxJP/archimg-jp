@@ -46,95 +46,10 @@ body {
     transform-origin: 250px 250px;
 }
 
-.archButton .particleLayer {
-    opacity: 0;
-}
-
-.archButton .particleLayer circle {
-    opacity: 0;
-    transform-origin: 250px 250px;
-}
-
 .archButton.clicked .explosion {
     animation: explosionAnime 800ms;
     animation-fill-mode: forwards;
 }
-
-.archButton.clicked .particleLayer {
-    animation: particleLayerAnime 800ms;
-    animation-fill-mode: forwards;
-}
-
-.archButton.clicked .particleLayer circle:nth-child(1) {
-    animation: particleAnimate1 800ms;
-    animation-fill-mode: forwards;
-}
-
-.archButton.clicked .particleLayer circle:nth-child(2) {
-    animation: particleAnimate2 800ms;
-    animation-fill-mode: forwards;
-}
-
-.archButton.clicked .particleLayer circle:nth-child(3) {
-    animation: particleAnimate3 800ms;
-    animation-fill-mode: forwards;
-}
-
-.archButton.clicked .particleLayer circle:nth-child(4) {
-    animation: particleAnimate4 800ms;
-    animation-fill-mode: forwards;
-}
-
-.archButton.clicked .particleLayer circle:nth-child(5) {
-    animation: particleAnimate5 800ms;
-    animation-fill-mode: forwards;
-}
-
-.archButton.clicked .particleLayer circle:nth-child(6) {
-    animation: particleAnimate6 800ms;
-    animation-fill-mode: forwards;
-}
-
-.archButton.clicked .particleLayer circle:nth-child(7) {
-    animation: particleAnimate7 800ms;
-    animation-fill-mode: forwards;
-}
-
-.archButton.clicked .particleLayer circle:nth-child(8) {
-    animation: particleAnimate8 800ms;
-    animation-fill-mode: forwards;
-}
-
-.archButton.clicked .particleLayer circle:nth-child(9) {
-    animation: particleAnimate9 800ms;
-    animation-fill-mode: forwards;
-}
-
-.archButton.clicked .particleLayer circle:nth-child(10) {
-    animation: particleAnimate10 800ms;
-    animation-fill-mode: forwards;
-}
-
-.archButton.clicked .particleLayer circle:nth-child(11) {
-    animation: particleAnimate11 800ms;
-    animation-fill-mode: forwards;
-}
-
-.archButton.clicked .particleLayer circle:nth-child(12) {
-    animation: particleAnimate12 800ms;
-    animation-fill-mode: forwards;
-}
-
-.archButton.clicked .particleLayer circle:nth-child(13) {
-    animation: particleAnimate13 800ms;
-    animation-fill-mode: forwards;
-}
-
-.archButton.clicked .particleLayer circle:nth-child(14) {
-    animation: particleAnimate14 800ms;
-    animation-fill-mode: forwards;
-}
-
 
 @keyframes explosionAnime {
     0% {
@@ -167,31 +82,6 @@ body {
 	stroke-width: 0;
     }
 }
-
-
-@keyframes particleLayerAnime {
-    0% {
-	transform: translate(0, 0);
-	opacity: 0;
-    }
-    30% {
-	opacity: 0;
-    }
-    31% {
-	opacity: 1;
-    }
-    60% {
-	transform: translate(0, 0);
-    }
-    70% {
-	opacity: 1;
-    }
-    100% {
-	opacity: 0;
-	transform: translate(0, -20px);
-    }
-}
-
 
 @keyframes particleAnimate1 {
     0% {
@@ -234,7 +124,6 @@ body {
     }
 }
 
-
 @keyframes particleAnimate3 {
     0% {
 	transform: translate(0, 0);
@@ -254,7 +143,6 @@ body {
 	transform: translate(50px, -48px);
     }
 }
-
 
 @keyframes particleAnimate4 {
     0% {
@@ -276,7 +164,6 @@ body {
     }
 }
 
-
 @keyframes particleAnimate5 {
     0% {
 	transform: translate(0, 0);
@@ -296,7 +183,6 @@ body {
 	transform: translate(-39px, 32px);
     }
 }
-
 
 @keyframes particleAnimate6 {
     0% {
@@ -319,7 +205,6 @@ body {
     }
 }
 
-
 @keyframes particleAnimate7 {
     0% {
 	transform: translate(0, 0);
@@ -340,7 +225,6 @@ body {
     }
 }
 
-
 @keyframes particleAnimate8 {
     0% {
 	transform: translate(0, 0);
@@ -360,7 +244,6 @@ body {
 	transform: translate(-12px, -52px);
     }
 }
-
 
 @keyframes particleAnimate9 {
     0% {
@@ -402,7 +285,6 @@ body {
     }
 }
 
-
 @keyframes particleAnimate11 {
     0% {
 	transform: translate(0, 0);
@@ -422,7 +304,6 @@ body {
 	transform: translate(66px, -9px);
     }
 }
-
 
 @keyframes particleAnimate12 {
     0% {
@@ -444,8 +325,6 @@ body {
     }
 }
 
-
-
 @keyframes particleAnimate13 {
     0% {
 	transform: translate(0, 0);
@@ -465,7 +344,6 @@ body {
 	transform: translate(29px, 24px);
     }
 }
-
 
 @keyframes particleAnimate14 {
     0% {
