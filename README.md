@@ -79,3 +79,10 @@ $ sudo pip install pillow
 <p> &#xe900; ArchLinux </p>
 ```
 
+## SVG Animation for ArchLinuxJP
+
+アイコンにSVGエフェクトをつけてみました。アニメーションも可。
+
+demo : https://archlinuxjp.github.io/archimg-jp
+
+
