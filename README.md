@@ -2,6 +2,12 @@
 
 ArchLinux関連の画像リンクなどを掲載します。
 
+## wallpaper
+
+壁紙作りました。
+
+![](wall/archjp.png)
+
 ## SVG edit
 
 SVGを編集するには、Editorを使用するか、`inkscape`などから編集するのがおすすめです。簡易な編集ならEditorからでも可能です。
